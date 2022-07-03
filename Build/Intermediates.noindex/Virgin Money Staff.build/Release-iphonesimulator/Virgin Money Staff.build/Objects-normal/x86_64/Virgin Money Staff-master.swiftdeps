@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+options: "a4a403bdde4144706e008de51b2a7e16294521111299e750d5f9535b87782b48"
+build_start_time: [1656505265, 703844070]
+build_end_time: [1656505266, 320580005]
+inputs:
+  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/AppDelegate.swift": [1656499218, 685145378]
+  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/ColleaguesListViewController.swift": [1656504687, 274921655]
+  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/CollegueDetailsViewController.swift": [1656503909, 671624660]
+  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/RoomsTableViewController.swift": [1656503835, 683013677]
+  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/SceneDelegate.swift": [1656499218, 696361541]

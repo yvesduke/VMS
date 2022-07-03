@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Virgin Money Staff in Virgin Money Staff, no dependencies
+Virgin Money StaffTests in Virgin Money Staff, depends on:
+Virgin Money Staff in Virgin Money Staff (explicit)
+Virgin Money StaffUITests in Virgin Money Staff, depends on:
+Virgin Money Staff in Virgin Money Staff (explicit)

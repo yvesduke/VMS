@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1810572C286C6392009B3FA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810572B286C6392009B3FA9 /* AppDelegate.swift */; };
+		1810572E286C6392009B3FA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810572D286C6392009B3FA9 /* SceneDelegate.swift */; };
+		18105730286C6392009B3FA9 /* ColleaguesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810572F286C6392009B3FA9 /* ColleaguesListViewController.swift */; };
+		18105733286C6392009B3FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18105731286C6392009B3FA9 /* Main.storyboard */; };
+		18105735286C6394009B3FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18105734286C6394009B3FA9 /* Assets.xcassets */; };
+		18105738286C6394009B3FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18105736286C6394009B3FA9 /* LaunchScreen.storyboard */; };
+		18105743286C6394009B3FA9 /* Virgin_Money_StaffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18105742286C6394009B3FA9 /* Virgin_Money_StaffTests.swift */; };
+		1810574D286C6395009B3FA9 /* Virgin_Money_StaffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810574C286C6395009B3FA9 /* Virgin_Money_StaffUITests.swift */; };
+		1810574F286C6395009B3FA9 /* Virgin_Money_StaffUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810574E286C6395009B3FA9 /* Virgin_Money_StaffUITestsLaunchTests.swift */; };
+		1810575C286C759C009B3FA9 /* RoomsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810575B286C759C009B3FA9 /* RoomsTableViewController.swift */; };
+		1810575E286C75E6009B3FA9 /* CollegueDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810575D286C75E5009B3FA9 /* CollegueDetailsViewController.swift */; };
+		18105763286C7F74009B3FA9 /* Extension+URLSessionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18105762286C7F74009B3FA9 /* Extension+URLSessionRequest.swift */; };
+		18105765286C7F8A009B3FA9 /* Extension+URLSessionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18105764286C7F8A009B3FA9 /* Extension+URLSessionError.swift */; };
+		18105767286C8018009B3FA9 /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18105766286C8018009B3FA9 /* APIEndpoints.swift */; };
+		18105769286C858D009B3FA9 /* Colleague.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18105768286C858D009B3FA9 /* Colleague.swift */; };
+		1810576B286C8599009B3FA9 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810576A286C8599009B3FA9 /* Room.swift */; };
+		18105770286F43AF009B3FA9 /* CollegueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1810576F286F43AF009B3FA9 /* CollegueTableViewCell.swift */; };
+		18105772286F7928009B3FA9 /* RoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18105771286F7928009B3FA9 /* RoomTableViewCell.swift */; };
+		18105774286F98F2009B3FA9 /* ImageViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18105773286F98F2009B3FA9 /* ImageViewHelper.swift */; };
+		18105B532870FB26009B3FA9 /* FetchDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18105B522870FB26009B3FA9 /* FetchDataDelegate.swift */; };
+		18105B59287103CC009B3FA9 /* MockDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18105B58287103CC009B3FA9 /* MockDataFetcher.swift */; };
+		18105B5A28710F3A009B3FA9 /* RoomResponse_success.json in Resources */ = {isa = PBXBuildFile; fileRef = 18105B5728710145009B3FA9 /* RoomResponse_success.json */; };
+		18105B5B28710F3D009B3FA9 /* PeopleResponse_success.json in Resources */ = {isa = PBXBuildFile; fileRef = 18105B5628710125009B3FA9 /* PeopleResponse_success.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1810573F286C6394009B3FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18105720286C6392009B3FA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18105727286C6392009B3FA9;
+			remoteInfo = "Virgin Money Staff";
+		};
+		18105749286C6395009B3FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18105720286C6392009B3FA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18105727286C6392009B3FA9;
+			remoteInfo = "Virgin Money Staff";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18105728286C6392009B3FA9 /* Virgin Money Staff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Virgin Money Staff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1810572B286C6392009B3FA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1810572D286C6392009B3FA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1810572F286C6392009B3FA9 /* ColleaguesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColleaguesListViewController.swift; sourceTree = "<group>"; };
+		18105732286C6392009B3FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18105734286C6394009B3FA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18105737286C6394009B3FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18105739286C6394009B3FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1810573E286C6394009B3FA9 /* Virgin Money StaffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Virgin Money StaffTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18105742286C6394009B3FA9 /* Virgin_Money_StaffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virgin_Money_StaffTests.swift; sourceTree = "<group>"; };
+		18105748286C6395009B3FA9 /* Virgin Money StaffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Virgin Money StaffUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1810574C286C6395009B3FA9 /* Virgin_Money_StaffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virgin_Money_StaffUITests.swift; sourceTree = "<group>"; };
+		1810574E286C6395009B3FA9 /* Virgin_Money_StaffUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virgin_Money_StaffUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1810575B286C759C009B3FA9 /* RoomsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsTableViewController.swift; sourceTree = "<group>"; };
+		1810575D286C75E5009B3FA9 /* CollegueDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegueDetailsViewController.swift; sourceTree = "<group>"; };
+		18105762286C7F74009B3FA9 /* Extension+URLSessionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+URLSessionRequest.swift"; sourceTree = "<group>"; };
+		18105764286C7F8A009B3FA9 /* Extension+URLSessionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+URLSessionError.swift"; sourceTree = "<group>"; };
+		18105766286C8018009B3FA9 /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		18105768286C858D009B3FA9 /* Colleague.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colleague.swift; sourceTree = "<group>"; };
+		1810576A286C8599009B3FA9 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		1810576F286F43AF009B3FA9 /* CollegueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegueTableViewCell.swift; sourceTree = "<group>"; };
+		18105771286F7928009B3FA9 /* RoomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTableViewCell.swift; sourceTree = "<group>"; };
+		18105773286F98F2009B3FA9 /* ImageViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewHelper.swift; sourceTree = "<group>"; };
+		18105B522870FB26009B3FA9 /* FetchDataDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataDelegate.swift; sourceTree = "<group>"; };
+		18105B5628710125009B3FA9 /* PeopleResponse_success.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PeopleResponse_success.json; sourceTree = "<group>"; };
+		18105B5728710145009B3FA9 /* RoomResponse_success.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RoomResponse_success.json; sourceTree = "<group>"; };
+		18105B58287103CC009B3FA9 /* MockDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataFetcher.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18105725286C6392009B3FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1810573B286C6394009B3FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18105745286C6395009B3FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1810571F286C6392009B3FA9 = {
+			isa = PBXGroup;
+			children = (
+				1810572A286C6392009B3FA9 /* Virgin Money Staff */,
+				18105741286C6394009B3FA9 /* Virgin Money StaffTests */,
+				1810574B286C6395009B3FA9 /* Virgin Money StaffUITests */,
+				18105729286C6392009B3FA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18105729286C6392009B3FA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18105728286C6392009B3FA9 /* Virgin Money Staff.app */,
+				1810573E286C6394009B3FA9 /* Virgin Money StaffTests.xctest */,
+				18105748286C6395009B3FA9 /* Virgin Money StaffUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1810572A286C6392009B3FA9 /* Virgin Money Staff */ = {
+			isa = PBXGroup;
+			children = (
+				18105B512870FB08009B3FA9 /* Helper */,
+				181057762870F5E1009B3FA9 /* Views */,
+				181057752870EAD4009B3FA9 /* Controllers */,
+				18105761286C7F25009B3FA9 /* Constants */,
+				18105760286C7F1C009B3FA9 /* Models */,
+				1810575F286C7F13009B3FA9 /* Utils */,
+				1810572B286C6392009B3FA9 /* AppDelegate.swift */,
+				1810572D286C6392009B3FA9 /* SceneDelegate.swift */,
+				18105731286C6392009B3FA9 /* Main.storyboard */,
+				18105734286C6394009B3FA9 /* Assets.xcassets */,
+				18105736286C6394009B3FA9 /* LaunchScreen.storyboard */,
+				18105739286C6394009B3FA9 /* Info.plist */,
+			);
+			path = "Virgin Money Staff";
+			sourceTree = "<group>";
+		};
+		18105741286C6394009B3FA9 /* Virgin Money StaffTests */ = {
+			isa = PBXGroup;
+			children = (
+				18105742286C6394009B3FA9 /* Virgin_Money_StaffTests.swift */,
+				18105B5628710125009B3FA9 /* PeopleResponse_success.json */,
+				18105B5728710145009B3FA9 /* RoomResponse_success.json */,
+				18105B58287103CC009B3FA9 /* MockDataFetcher.swift */,
+			);
+			path = "Virgin Money StaffTests";
+			sourceTree = "<group>";
+		};
+		1810574B286C6395009B3FA9 /* Virgin Money StaffUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1810574C286C6395009B3FA9 /* Virgin_Money_StaffUITests.swift */,
+				1810574E286C6395009B3FA9 /* Virgin_Money_StaffUITestsLaunchTests.swift */,
+			);
+			path = "Virgin Money StaffUITests";
+			sourceTree = "<group>";
+		};
+		1810575F286C7F13009B3FA9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				18105762286C7F74009B3FA9 /* Extension+URLSessionRequest.swift */,
+				18105764286C7F8A009B3FA9 /* Extension+URLSessionError.swift */,
+				18105773286F98F2009B3FA9 /* ImageViewHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		18105760286C7F1C009B3FA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18105768286C858D009B3FA9 /* Colleague.swift */,
+				1810576A286C8599009B3FA9 /* Room.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18105761286C7F25009B3FA9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				18105766286C8018009B3FA9 /* APIEndpoints.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		181057752870EAD4009B3FA9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1810572F286C6392009B3FA9 /* ColleaguesListViewController.swift */,
+				1810575D286C75E5009B3FA9 /* CollegueDetailsViewController.swift */,
+				1810575B286C759C009B3FA9 /* RoomsTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		181057762870F5E1009B3FA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1810576F286F43AF009B3FA9 /* CollegueTableViewCell.swift */,
+				18105771286F7928009B3FA9 /* RoomTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18105B512870FB08009B3FA9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				18105B522870FB26009B3FA9 /* FetchDataDelegate.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18105727286C6392009B3FA9 /* Virgin Money Staff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18105752286C6395009B3FA9 /* Build configuration list for PBXNativeTarget "Virgin Money Staff" */;
+			buildPhases = (
+				18105724286C6392009B3FA9 /* Sources */,
+				18105725286C6392009B3FA9 /* Frameworks */,
+				18105726286C6392009B3FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Virgin Money Staff";
+			productName = "Virgin Money Staff";
+			productReference = 18105728286C6392009B3FA9 /* Virgin Money Staff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1810573D286C6394009B3FA9 /* Virgin Money StaffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18105755286C6395009B3FA9 /* Build configuration list for PBXNativeTarget "Virgin Money StaffTests" */;
+			buildPhases = (
+				1810573A286C6394009B3FA9 /* Sources */,
+				1810573B286C6394009B3FA9 /* Frameworks */,
+				1810573C286C6394009B3FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18105740286C6394009B3FA9 /* PBXTargetDependency */,
+			);
+			name = "Virgin Money StaffTests";
+			productName = "Virgin Money StaffTests";
+			productReference = 1810573E286C6394009B3FA9 /* Virgin Money StaffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18105747286C6395009B3FA9 /* Virgin Money StaffUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18105758286C6395009B3FA9 /* Build configuration list for PBXNativeTarget "Virgin Money StaffUITests" */;
+			buildPhases = (
+				18105744286C6395009B3FA9 /* Sources */,
+				18105745286C6395009B3FA9 /* Frameworks */,
+				18105746286C6395009B3FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1810574A286C6395009B3FA9 /* PBXTargetDependency */,
+			);
+			name = "Virgin Money StaffUITests";
+			productName = "Virgin Money StaffUITests";
+			productReference = 18105748286C6395009B3FA9 /* Virgin Money StaffUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18105720286C6392009B3FA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					18105727286C6392009B3FA9 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					1810573D286C6394009B3FA9 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 18105727286C6392009B3FA9;
+					};
+					18105747286C6395009B3FA9 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 18105727286C6392009B3FA9;
+					};
+				};
+			};
+			buildConfigurationList = 18105723286C6392009B3FA9 /* Build configuration list for PBXProject "Virgin Money Staff" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1810571F286C6392009B3FA9;
+			productRefGroup = 18105729286C6392009B3FA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18105727286C6392009B3FA9 /* Virgin Money Staff */,
+				1810573D286C6394009B3FA9 /* Virgin Money StaffTests */,
+				18105747286C6395009B3FA9 /* Virgin Money StaffUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18105726286C6392009B3FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18105738286C6394009B3FA9 /* LaunchScreen.storyboard in Resources */,
+				18105735286C6394009B3FA9 /* Assets.xcassets in Resources */,
+				18105733286C6392009B3FA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1810573C286C6394009B3FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18105B5A28710F3A009B3FA9 /* RoomResponse_success.json in Resources */,
+				18105B5B28710F3D009B3FA9 /* PeopleResponse_success.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18105746286C6395009B3FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18105724286C6392009B3FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18105763286C7F74009B3FA9 /* Extension+URLSessionRequest.swift in Sources */,
+				18105765286C7F8A009B3FA9 /* Extension+URLSessionError.swift in Sources */,
+				1810575C286C759C009B3FA9 /* RoomsTableViewController.swift in Sources */,
+				18105770286F43AF009B3FA9 /* CollegueTableViewCell.swift in Sources */,
+				18105774286F98F2009B3FA9 /* ImageViewHelper.swift in Sources */,
+				18105B532870FB26009B3FA9 /* FetchDataDelegate.swift in Sources */,
+				18105767286C8018009B3FA9 /* APIEndpoints.swift in Sources */,
+				1810576B286C8599009B3FA9 /* Room.swift in Sources */,
+				18105772286F7928009B3FA9 /* RoomTableViewCell.swift in Sources */,
+				18105730286C6392009B3FA9 /* ColleaguesListViewController.swift in Sources */,
+				1810575E286C75E6009B3FA9 /* CollegueDetailsViewController.swift in Sources */,
+				1810572C286C6392009B3FA9 /* AppDelegate.swift in Sources */,
+				18105769286C858D009B3FA9 /* Colleague.swift in Sources */,
+				1810572E286C6392009B3FA9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1810573A286C6394009B3FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18105743286C6394009B3FA9 /* Virgin_Money_StaffTests.swift in Sources */,
+				18105B59287103CC009B3FA9 /* MockDataFetcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18105744286C6395009B3FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1810574D286C6395009B3FA9 /* Virgin_Money_StaffUITests.swift in Sources */,
+				1810574F286C6395009B3FA9 /* Virgin_Money_StaffUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18105740286C6394009B3FA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18105727286C6392009B3FA9 /* Virgin Money Staff */;
+			targetProxy = 1810573F286C6394009B3FA9 /* PBXContainerItemProxy */;
+		};
+		1810574A286C6395009B3FA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18105727286C6392009B3FA9 /* Virgin Money Staff */;
+			targetProxy = 18105749286C6395009B3FA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18105731286C6392009B3FA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18105732286C6392009B3FA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18105736286C6394009B3FA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18105737286C6394009B3FA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18105750286C6395009B3FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18105751286C6395009B3FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18105753286C6395009B3FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6RVDL67DQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Virgin Money Staff/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YvesDukuze.Virgin-Money-Staff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18105754286C6395009B3FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6RVDL67DQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Virgin Money Staff/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YvesDukuze.Virgin-Money-Staff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18105756286C6395009B3FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6RVDL67DQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YvesDukuze.Virgin-Money-StaffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Virgin Money Staff.app/Virgin Money Staff";
+			};
+			name = Debug;
+		};
+		18105757286C6395009B3FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6RVDL67DQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YvesDukuze.Virgin-Money-StaffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Virgin Money Staff.app/Virgin Money Staff";
+			};
+			name = Release;
+		};
+		18105759286C6395009B3FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6RVDL67DQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YvesDukuze.Virgin-Money-StaffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Virgin Money Staff";
+			};
+			name = Debug;
+		};
+		1810575A286C6395009B3FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6RVDL67DQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YvesDukuze.Virgin-Money-StaffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Virgin Money Staff";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18105723286C6392009B3FA9 /* Build configuration list for PBXProject "Virgin Money Staff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18105750286C6395009B3FA9 /* Debug */,
+				18105751286C6395009B3FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18105752286C6395009B3FA9 /* Build configuration list for PBXNativeTarget "Virgin Money Staff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18105753286C6395009B3FA9 /* Debug */,
+				18105754286C6395009B3FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18105755286C6395009B3FA9 /* Build configuration list for PBXNativeTarget "Virgin Money StaffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18105756286C6395009B3FA9 /* Debug */,
+				18105757286C6395009B3FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18105758286C6395009B3FA9 /* Build configuration list for PBXNativeTarget "Virgin Money StaffUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18105759286C6395009B3FA9 /* Debug */,
+				1810575A286C6395009B3FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18105720286C6392009B3FA9 /* Project object */;
+}
