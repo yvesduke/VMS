@@ -1,0 +1,3557 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Virgin_Money_StaffTests",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "XCTest",
+      "printedName": "XCTest",
+      "declKind": "Import",
+      "moduleName": "Virgin_Money_StaffTests"
+    },
+    {
+      "kind": "Import",
+      "name": "Virgin_Money_Staff",
+      "printedName": "Virgin_Money_Staff",
+      "declKind": "Import",
+      "moduleName": "Virgin_Money_StaffTests",
+      "declAttributes": [
+        "Testable"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ColleaguesListViewModelTests",
+      "printedName": "ColleaguesListViewModelTests",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "viewModel",
+          "printedName": "viewModel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "Virgin_Money_Staff.ColleaguesListViewModel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ColleaguesListViewModel",
+                  "printedName": "Virgin_Money_Staff.ColleaguesListViewModel",
+                  "usr": "s:18Virgin_Money_Staff23ColleaguesListViewModelC"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:23Virgin_Money_StaffTests023ColleaguesListViewModelD0C04viewH00a1_b1_C00efgH0CSgvp",
+          "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C04viewH00a1_b1_C00efgH0CSgvp",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Virgin_Money_Staff.ColleaguesListViewModel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ColleaguesListViewModel",
+                      "printedName": "Virgin_Money_Staff.ColleaguesListViewModel",
+                      "usr": "s:18Virgin_Money_Staff23ColleaguesListViewModelC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests023ColleaguesListViewModelD0C04viewH00a1_b1_C00efgH0CSgvg",
+              "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C04viewH00a1_b1_C00efgH0CSgvg",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Virgin_Money_Staff.ColleaguesListViewModel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ColleaguesListViewModel",
+                      "printedName": "Virgin_Money_Staff.ColleaguesListViewModel",
+                      "usr": "s:18Virgin_Money_Staff23ColleaguesListViewModelC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests023ColleaguesListViewModelD0C04viewH00a1_b1_C00efgH0CSgvs",
+              "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C04viewH00a1_b1_C00efgH0CSgvs",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests023ColleaguesListViewModelD0C04viewH00a1_b1_C00efgH0CSgvM",
+              "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C04viewH00a1_b1_C00efgH0CSgvM",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "apiManager",
+          "printedName": "apiManager",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "Virgin_Money_StaffTests.PeoplesMockAPIManager?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "PeoplesMockAPIManager",
+                  "printedName": "Virgin_Money_StaffTests.PeoplesMockAPIManager",
+                  "usr": "s:23Virgin_Money_StaffTests21PeoplesMockAPIManagerC"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:23Virgin_Money_StaffTests023ColleaguesListViewModelD0C10apiManagerAA21PeoplesMockAPIManagerCSgvp",
+          "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C10apiManagerAA21PeoplesMockAPIManagerCSgvp",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Virgin_Money_StaffTests.PeoplesMockAPIManager?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "PeoplesMockAPIManager",
+                      "printedName": "Virgin_Money_StaffTests.PeoplesMockAPIManager",
+                      "usr": "s:23Virgin_Money_StaffTests21PeoplesMockAPIManagerC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests023ColleaguesListViewModelD0C10apiManagerAA21PeoplesMockAPIManagerCSgvg",
+              "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C10apiManagerAA21PeoplesMockAPIManagerCSgvg",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Virgin_Money_StaffTests.PeoplesMockAPIManager?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "PeoplesMockAPIManager",
+                      "printedName": "Virgin_Money_StaffTests.PeoplesMockAPIManager",
+                      "usr": "s:23Virgin_Money_StaffTests21PeoplesMockAPIManagerC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests023ColleaguesListViewModelD0C10apiManagerAA21PeoplesMockAPIManagerCSgvs",
+              "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C10apiManagerAA21PeoplesMockAPIManagerCSgvs",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests023ColleaguesListViewModelD0C10apiManagerAA21PeoplesMockAPIManagerCSgvM",
+              "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C10apiManagerAA21PeoplesMockAPIManagerCSgvM",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "vc",
+          "printedName": "vc",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ColleaguesListViewController",
+              "printedName": "Virgin_Money_Staff.ColleaguesListViewController",
+              "usr": "c:@M@Virgin_Money_Staff@objc(cs)ColleaguesListViewController"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)ColleaguesListViewModelTests(py)vc",
+          "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C2vc0a1_b1_C00efG10ControllerCvp",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ColleaguesListViewController",
+                  "printedName": "Virgin_Money_Staff.ColleaguesListViewController",
+                  "usr": "c:@M@Virgin_Money_Staff@objc(cs)ColleaguesListViewController"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)ColleaguesListViewModelTests(im)vc",
+              "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C2vc0a1_b1_C00efG10ControllerCvg",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ColleaguesListViewController",
+                  "printedName": "Virgin_Money_Staff.ColleaguesListViewController",
+                  "usr": "c:@M@Virgin_Money_Staff@objc(cs)ColleaguesListViewController"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)ColleaguesListViewModelTests(im)setVc:",
+              "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C2vc0a1_b1_C00efG10ControllerCvs",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests023ColleaguesListViewModelD0C2vc0a1_b1_C00efG10ControllerCvM",
+              "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C2vc0a1_b1_C00efG10ControllerCvM",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "setUpWithError",
+          "printedName": "setUpWithError()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)ColleaguesListViewModelTests(im)setUpWithError:",
+          "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C14setUpWithErroryyKF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "setUpWithError:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tearDownWithError",
+          "printedName": "tearDownWithError()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)ColleaguesListViewModelTests(im)tearDownWithError:",
+          "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C17tearDownWithErroryyKF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "tearDownWithError:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testGetColleguesSuccess",
+          "printedName": "testGetColleguesSuccess()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)ColleaguesListViewModelTests(im)testGetColleguesSuccess",
+          "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C23testGetColleguesSuccessyyF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testGetColleguesFailure",
+          "printedName": "testGetColleguesFailure()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)ColleaguesListViewModelTests(im)testGetColleguesFailure",
+          "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C23testGetColleguesFailureyyF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(invocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ColleaguesListViewModelTests",
+              "printedName": "Virgin_Money_StaffTests.ColleaguesListViewModelTests",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)ColleaguesListViewModelTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSInvocation?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSInvocation",
+                  "printedName": "Foundation.NSInvocation",
+                  "usr": "c:objc(cs)NSInvocation"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)ColleaguesListViewModelTests(im)initWithInvocation:",
+          "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C10invocationACSo12NSInvocationCSg_tcfc",
+          "moduleName": "Virgin_Money_StaffTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithInvocation:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(selector:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ColleaguesListViewModelTests",
+              "printedName": "Virgin_Money_StaffTests.ColleaguesListViewModelTests",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)ColleaguesListViewModelTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Selector",
+              "printedName": "ObjectiveC.Selector",
+              "usr": "s:10ObjectiveC8SelectorV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)ColleaguesListViewModelTests(im)initWithSelector:",
+          "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C8selectorAC10ObjectiveC8SelectorV_tcfc",
+          "moduleName": "Virgin_Money_StaffTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithSelector:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ColleaguesListViewModelTests",
+              "printedName": "Virgin_Money_StaffTests.ColleaguesListViewModelTests",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)ColleaguesListViewModelTests"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)ColleaguesListViewModelTests(im)init",
+          "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0CACycfc",
+          "moduleName": "Virgin_Money_StaffTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)ColleaguesListViewModelTests",
+      "mangledName": "$s23Virgin_Money_StaffTests023ColleaguesListViewModelD0C",
+      "moduleName": "Virgin_Money_StaffTests",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)XCTestCase",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "XCTest.XCTestCase",
+        "XCTest.XCTest",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "XCTest",
+      "printedName": "XCTest",
+      "declKind": "Import",
+      "moduleName": "Virgin_Money_StaffTests",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Virgin_Money_Staff",
+      "printedName": "Virgin_Money_Staff",
+      "declKind": "Import",
+      "moduleName": "Virgin_Money_StaffTests",
+      "declAttributes": [
+        "Testable"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "RoomsViewModelTests",
+      "printedName": "RoomsViewModelTests",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "viewModel",
+          "printedName": "viewModel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "Virgin_Money_Staff.RoomsViewModel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "RoomsViewModel",
+                  "printedName": "Virgin_Money_Staff.RoomsViewModel",
+                  "usr": "s:18Virgin_Money_Staff14RoomsViewModelC"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:23Virgin_Money_StaffTests014RoomsViewModelD0C04viewG00a1_b1_C00efG0CSgvp",
+          "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C04viewG00a1_b1_C00efG0CSgvp",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Virgin_Money_Staff.RoomsViewModel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "RoomsViewModel",
+                      "printedName": "Virgin_Money_Staff.RoomsViewModel",
+                      "usr": "s:18Virgin_Money_Staff14RoomsViewModelC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests014RoomsViewModelD0C04viewG00a1_b1_C00efG0CSgvg",
+              "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C04viewG00a1_b1_C00efG0CSgvg",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Virgin_Money_Staff.RoomsViewModel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "RoomsViewModel",
+                      "printedName": "Virgin_Money_Staff.RoomsViewModel",
+                      "usr": "s:18Virgin_Money_Staff14RoomsViewModelC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests014RoomsViewModelD0C04viewG00a1_b1_C00efG0CSgvs",
+              "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C04viewG00a1_b1_C00efG0CSgvs",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests014RoomsViewModelD0C04viewG00a1_b1_C00efG0CSgvM",
+              "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C04viewG00a1_b1_C00efG0CSgvM",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "apiManager",
+          "printedName": "apiManager",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "Virgin_Money_StaffTests.RoomsMockAPIManager?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "RoomsMockAPIManager",
+                  "printedName": "Virgin_Money_StaffTests.RoomsMockAPIManager",
+                  "usr": "s:23Virgin_Money_StaffTests19RoomsMockAPIManagerC"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:23Virgin_Money_StaffTests014RoomsViewModelD0C10apiManagerAA0E14MockAPIManagerCSgvp",
+          "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C10apiManagerAA0E14MockAPIManagerCSgvp",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Virgin_Money_StaffTests.RoomsMockAPIManager?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "RoomsMockAPIManager",
+                      "printedName": "Virgin_Money_StaffTests.RoomsMockAPIManager",
+                      "usr": "s:23Virgin_Money_StaffTests19RoomsMockAPIManagerC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests014RoomsViewModelD0C10apiManagerAA0E14MockAPIManagerCSgvg",
+              "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C10apiManagerAA0E14MockAPIManagerCSgvg",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Virgin_Money_StaffTests.RoomsMockAPIManager?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "RoomsMockAPIManager",
+                      "printedName": "Virgin_Money_StaffTests.RoomsMockAPIManager",
+                      "usr": "s:23Virgin_Money_StaffTests19RoomsMockAPIManagerC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests014RoomsViewModelD0C10apiManagerAA0E14MockAPIManagerCSgvs",
+              "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C10apiManagerAA0E14MockAPIManagerCSgvs",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests014RoomsViewModelD0C10apiManagerAA0E14MockAPIManagerCSgvM",
+              "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C10apiManagerAA0E14MockAPIManagerCSgvM",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "vc",
+          "printedName": "vc",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RoomsViewController",
+              "printedName": "Virgin_Money_Staff.RoomsViewController",
+              "usr": "c:@M@Virgin_Money_Staff@objc(cs)RoomsViewController"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)RoomsViewModelTests(py)vc",
+          "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C2vc0a1_b1_C00eF10ControllerCvp",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "RoomsViewController",
+                  "printedName": "Virgin_Money_Staff.RoomsViewController",
+                  "usr": "c:@M@Virgin_Money_Staff@objc(cs)RoomsViewController"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)RoomsViewModelTests(im)vc",
+              "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C2vc0a1_b1_C00eF10ControllerCvg",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "RoomsViewController",
+                  "printedName": "Virgin_Money_Staff.RoomsViewController",
+                  "usr": "c:@M@Virgin_Money_Staff@objc(cs)RoomsViewController"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)RoomsViewModelTests(im)setVc:",
+              "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C2vc0a1_b1_C00eF10ControllerCvs",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests014RoomsViewModelD0C2vc0a1_b1_C00eF10ControllerCvM",
+              "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C2vc0a1_b1_C00eF10ControllerCvM",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "setUpWithError",
+          "printedName": "setUpWithError()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)RoomsViewModelTests(im)setUpWithError:",
+          "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C14setUpWithErroryyKF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "setUpWithError:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tearDownWithError",
+          "printedName": "tearDownWithError()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)RoomsViewModelTests(im)tearDownWithError:",
+          "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C17tearDownWithErroryyKF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "tearDownWithError:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testGetColleguesSuccess",
+          "printedName": "testGetColleguesSuccess()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)RoomsViewModelTests(im)testGetColleguesSuccess",
+          "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C23testGetColleguesSuccessyyF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testGetRoom",
+          "printedName": "testGetRoom()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)RoomsViewModelTests(im)testGetRoom",
+          "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C11testGetRoomyyF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testGetColleguesFailure",
+          "printedName": "testGetColleguesFailure()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)RoomsViewModelTests(im)testGetColleguesFailure",
+          "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C23testGetColleguesFailureyyF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(invocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RoomsViewModelTests",
+              "printedName": "Virgin_Money_StaffTests.RoomsViewModelTests",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)RoomsViewModelTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSInvocation?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSInvocation",
+                  "printedName": "Foundation.NSInvocation",
+                  "usr": "c:objc(cs)NSInvocation"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)RoomsViewModelTests(im)initWithInvocation:",
+          "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C10invocationACSo12NSInvocationCSg_tcfc",
+          "moduleName": "Virgin_Money_StaffTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithInvocation:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(selector:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RoomsViewModelTests",
+              "printedName": "Virgin_Money_StaffTests.RoomsViewModelTests",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)RoomsViewModelTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Selector",
+              "printedName": "ObjectiveC.Selector",
+              "usr": "s:10ObjectiveC8SelectorV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)RoomsViewModelTests(im)initWithSelector:",
+          "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C8selectorAC10ObjectiveC8SelectorV_tcfc",
+          "moduleName": "Virgin_Money_StaffTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithSelector:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RoomsViewModelTests",
+              "printedName": "Virgin_Money_StaffTests.RoomsViewModelTests",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)RoomsViewModelTests"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)RoomsViewModelTests(im)init",
+          "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0CACycfc",
+          "moduleName": "Virgin_Money_StaffTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)RoomsViewModelTests",
+      "mangledName": "$s23Virgin_Money_StaffTests014RoomsViewModelD0C",
+      "moduleName": "Virgin_Money_StaffTests",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)XCTestCase",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "XCTest.XCTestCase",
+        "XCTest.XCTest",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Virgin_Money_StaffTests",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "XCTest",
+      "printedName": "XCTest",
+      "declKind": "Import",
+      "moduleName": "Virgin_Money_StaffTests"
+    },
+    {
+      "kind": "Import",
+      "name": "Virgin_Money_Staff",
+      "printedName": "Virgin_Money_Staff",
+      "declKind": "Import",
+      "moduleName": "Virgin_Money_StaffTests",
+      "declAttributes": [
+        "Testable"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "APIManagerTests",
+      "printedName": "APIManagerTests",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "networkManager",
+          "printedName": "networkManager",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "Virgin_Money_Staff.APIManager?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "APIManager",
+                  "printedName": "Virgin_Money_Staff.APIManager",
+                  "usr": "s:18Virgin_Money_Staff10APIManagerP"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:23Virgin_Money_StaffTests010APIManagerD0C14networkManager0a1_b1_C00E0_pSgvp",
+          "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0C14networkManager0a1_b1_C00E0_pSgvp",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Virgin_Money_Staff.APIManager?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "APIManager",
+                      "printedName": "Virgin_Money_Staff.APIManager",
+                      "usr": "s:18Virgin_Money_Staff10APIManagerP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests010APIManagerD0C14networkManager0a1_b1_C00E0_pSgvg",
+              "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0C14networkManager0a1_b1_C00E0_pSgvg",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Virgin_Money_Staff.APIManager?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "APIManager",
+                      "printedName": "Virgin_Money_Staff.APIManager",
+                      "usr": "s:18Virgin_Money_Staff10APIManagerP"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests010APIManagerD0C14networkManager0a1_b1_C00E0_pSgvs",
+              "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0C14networkManager0a1_b1_C00E0_pSgvs",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests010APIManagerD0C14networkManager0a1_b1_C00E0_pSgvM",
+              "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0C14networkManager0a1_b1_C00E0_pSgvM",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "mockURLSession",
+          "printedName": "mockURLSession",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "Virgin_Money_StaffTests.MockURLSession?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "MockURLSession",
+                  "printedName": "Virgin_Money_StaffTests.MockURLSession",
+                  "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)MockURLSession"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)APIManagerTests(py)mockURLSession",
+          "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0C14mockURLSessionAA04MockG0CSgvp",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Virgin_Money_StaffTests.MockURLSession?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "MockURLSession",
+                      "printedName": "Virgin_Money_StaffTests.MockURLSession",
+                      "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)MockURLSession"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)APIManagerTests(im)mockURLSession",
+              "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0C14mockURLSessionAA04MockG0CSgvg",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Virgin_Money_StaffTests.MockURLSession?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "MockURLSession",
+                      "printedName": "Virgin_Money_StaffTests.MockURLSession",
+                      "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)MockURLSession"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)APIManagerTests(im)setMockURLSession:",
+              "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0C14mockURLSessionAA04MockG0CSgvs",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests010APIManagerD0C14mockURLSessionAA04MockG0CSgvM",
+              "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0C14mockURLSessionAA04MockG0CSgvM",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "setUpWithError",
+          "printedName": "setUpWithError()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)APIManagerTests(im)setUpWithError:",
+          "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0C14setUpWithErroryyKF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "setUpWithError:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tearDownWithError",
+          "printedName": "tearDownWithError()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)APIManagerTests(im)tearDownWithError:",
+          "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0C17tearDownWithErroryyKF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "tearDownWithError:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testFailedToCreateRequestForEmptyURL",
+          "printedName": "testFailedToCreateRequestForEmptyURL()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)APIManagerTests(im)testFailedToCreateRequestForEmptyURL",
+          "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0C36testFailedToCreateRequestForEmptyURLyyF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testWhenResponseCodeIsValidButDataIdNotAsPerModel",
+          "printedName": "testWhenResponseCodeIsValidButDataIdNotAsPerModel()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)APIManagerTests(im)testWhenResponseCodeIsValidButDataIdNotAsPerModel",
+          "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0C49testWhenResponseCodeIsValidButDataIdNotAsPerModelyyF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testWhenResponseCodeIsNotSuccess",
+          "printedName": "testWhenResponseCodeIsNotSuccess()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)APIManagerTests(im)testWhenResponseCodeIsNotSuccess",
+          "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0C32testWhenResponseCodeIsNotSuccessyyF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testWhenResponseCodeIsValidButError",
+          "printedName": "testWhenResponseCodeIsValidButError()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)APIManagerTests(im)testWhenResponseCodeIsValidButError",
+          "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0C35testWhenResponseCodeIsValidButErroryyF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "RawDocComment",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(invocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "APIManagerTests",
+              "printedName": "Virgin_Money_StaffTests.APIManagerTests",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)APIManagerTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSInvocation?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSInvocation",
+                  "printedName": "Foundation.NSInvocation",
+                  "usr": "c:objc(cs)NSInvocation"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)APIManagerTests(im)initWithInvocation:",
+          "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0C10invocationACSo12NSInvocationCSg_tcfc",
+          "moduleName": "Virgin_Money_StaffTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithInvocation:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(selector:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "APIManagerTests",
+              "printedName": "Virgin_Money_StaffTests.APIManagerTests",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)APIManagerTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Selector",
+              "printedName": "ObjectiveC.Selector",
+              "usr": "s:10ObjectiveC8SelectorV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)APIManagerTests(im)initWithSelector:",
+          "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0C8selectorAC10ObjectiveC8SelectorV_tcfc",
+          "moduleName": "Virgin_Money_StaffTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithSelector:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "APIManagerTests",
+              "printedName": "Virgin_Money_StaffTests.APIManagerTests",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)APIManagerTests"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)APIManagerTests(im)init",
+          "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0CACycfc",
+          "moduleName": "Virgin_Money_StaffTests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)APIManagerTests",
+      "mangledName": "$s23Virgin_Money_StaffTests010APIManagerD0C",
+      "moduleName": "Virgin_Money_StaffTests",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)XCTestCase",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "XCTest.XCTestCase",
+        "XCTest.XCTest",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Virgin_Money_StaffTests",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Virgin_Money_Staff",
+      "printedName": "Virgin_Money_Staff",
+      "declKind": "Import",
+      "moduleName": "Virgin_Money_StaffTests",
+      "declAttributes": [
+        "Testable"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "PeoplesMockAPIManager",
+      "printedName": "PeoplesMockAPIManager",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "isApiSuccessFull",
+          "printedName": "isApiSuccessFull",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:23Virgin_Money_StaffTests21PeoplesMockAPIManagerC16isApiSuccessFullSbvp",
+          "mangledName": "$s23Virgin_Money_StaffTests21PeoplesMockAPIManagerC16isApiSuccessFullSbvp",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests21PeoplesMockAPIManagerC16isApiSuccessFullSbvg",
+              "mangledName": "$s23Virgin_Money_StaffTests21PeoplesMockAPIManagerC16isApiSuccessFullSbvg",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests21PeoplesMockAPIManagerC16isApiSuccessFullSbvs",
+              "mangledName": "$s23Virgin_Money_StaffTests21PeoplesMockAPIManagerC16isApiSuccessFullSbvs",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests21PeoplesMockAPIManagerC16isApiSuccessFullSbvM",
+              "mangledName": "$s23Virgin_Money_StaffTests21PeoplesMockAPIManagerC16isApiSuccessFullSbvM",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "call",
+          "printedName": "call(url:decoding:completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.URL?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "URL",
+                  "printedName": "Foundation.URL",
+                  "usr": "s:10Foundation3URLV"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Metatype",
+              "printedName": "τ_0_0.Type",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Swift.Result<τ_0_0, Virgin_Money_Staff.RequestErrors>) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Result",
+                  "printedName": "Swift.Result<τ_0_0, Virgin_Money_Staff.RequestErrors>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "RequestErrors",
+                      "printedName": "Virgin_Money_Staff.RequestErrors",
+                      "usr": "s:18Virgin_Money_Staff13RequestErrorsO"
+                    }
+                  ],
+                  "usr": "s:s6ResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:23Virgin_Money_StaffTests21PeoplesMockAPIManagerC4call3url8decoding10completiony10Foundation3URLVSg_xmys6ResultOyx0a1_b1_C013RequestErrorsOGctSeRzSERzlF",
+          "mangledName": "$s23Virgin_Money_StaffTests21PeoplesMockAPIManagerC4call3url8decoding10completiony10Foundation3URLVSg_xmys6ResultOyx0a1_b1_C013RequestErrorsOGctSeRzSERzlF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+          "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "PeoplesMockAPIManager",
+              "printedName": "Virgin_Money_StaffTests.PeoplesMockAPIManager",
+              "usr": "s:23Virgin_Money_StaffTests21PeoplesMockAPIManagerC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:23Virgin_Money_StaffTests21PeoplesMockAPIManagerCACycfc",
+          "mangledName": "$s23Virgin_Money_StaffTests21PeoplesMockAPIManagerCACycfc",
+          "moduleName": "Virgin_Money_StaffTests",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:23Virgin_Money_StaffTests21PeoplesMockAPIManagerC",
+      "mangledName": "$s23Virgin_Money_StaffTests21PeoplesMockAPIManagerC",
+      "moduleName": "Virgin_Money_StaffTests",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "APIManager",
+          "printedName": "APIManager",
+          "usr": "s:18Virgin_Money_Staff10APIManagerP",
+          "mangledName": "$s18Virgin_Money_Staff10APIManagerP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Virgin_Money_StaffTests",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Virgin_Money_StaffTests"
+    },
+    {
+      "kind": "Import",
+      "name": "Virgin_Money_Staff",
+      "printedName": "Virgin_Money_Staff",
+      "declKind": "Import",
+      "moduleName": "Virgin_Money_StaffTests",
+      "declAttributes": [
+        "Testable"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MockURLSession",
+      "printedName": "MockURLSession",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "mockDataTask",
+          "printedName": "mockDataTask",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MockURLSessionDataTask",
+              "printedName": "Virgin_Money_StaffTests.MockURLSessionDataTask",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)MockURLSessionDataTask"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:23Virgin_Money_StaffTests14MockURLSessionC12mockDataTaskAA0efhI0Cvp",
+          "mangledName": "$s23Virgin_Money_StaffTests14MockURLSessionC12mockDataTaskAA0efhI0Cvp",
+          "moduleName": "Virgin_Money_StaffTests",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "MockURLSessionDataTask",
+                  "printedName": "Virgin_Money_StaffTests.MockURLSessionDataTask",
+                  "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)MockURLSessionDataTask"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests14MockURLSessionC12mockDataTaskAA0efhI0Cvg",
+              "mangledName": "$s23Virgin_Money_StaffTests14MockURLSessionC12mockDataTaskAA0efhI0Cvg",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "dataTask",
+          "printedName": "dataTask(with:completionHandler:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "URLSessionDataTask",
+              "printedName": "Foundation.URLSessionDataTask",
+              "usr": "c:objc(cs)NSURLSessionDataTask"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "URL",
+              "printedName": "Foundation.URL",
+              "usr": "s:10Foundation3URLV"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Foundation.Data?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Data",
+                          "printedName": "Foundation.Data",
+                          "usr": "s:10Foundation4DataV"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Foundation.URLResponse?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "URLResponse",
+                          "printedName": "Foundation.URLResponse",
+                          "usr": "c:objc(cs)NSURLResponse"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Swift.Error?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Error",
+                          "printedName": "Swift.Error",
+                          "usr": "s:s5ErrorP"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)MockURLSession(im)dataTaskWithURL:completionHandler:",
+          "mangledName": "$s23Virgin_Money_StaffTests14MockURLSessionC8dataTask4with17completionHandlerSo016NSURLSessionDataH0C10Foundation3URLV_yAI0M0VSg_So13NSURLResponseCSgs5Error_pSgtctF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "dataTaskWithURL:completionHandler:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "enqueueResponse",
+          "printedName": "enqueueResponse(urlResponse:error:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "HTTPURLResponse",
+              "printedName": "Foundation.HTTPURLResponse",
+              "usr": "c:objc(cs)NSHTTPURLResponse"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Virgin_Money_Staff.RequestErrors?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "RequestErrors",
+                  "printedName": "Virgin_Money_Staff.RequestErrors",
+                  "usr": "s:18Virgin_Money_Staff13RequestErrorsO"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:23Virgin_Money_StaffTests14MockURLSessionC15enqueueResponse03urlH05errorySo17NSHTTPURLResponseC_0a1_b1_C013RequestErrorsOSgtF",
+          "mangledName": "$s23Virgin_Money_StaffTests14MockURLSessionC15enqueueResponse03urlH05errorySo17NSHTTPURLResponseC_0a1_b1_C013RequestErrorsOSgtF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MockURLSession",
+              "printedName": "Virgin_Money_StaffTests.MockURLSession",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)MockURLSession"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)MockURLSession(im)init",
+          "mangledName": "$s23Virgin_Money_StaffTests14MockURLSessionCACycfc",
+          "moduleName": "Virgin_Money_StaffTests",
+          "deprecated": true,
+          "overriding": true,
+          "implicit": true,
+          "intro_iOS": "7.0",
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override",
+            "Available"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)MockURLSession",
+      "mangledName": "$s23Virgin_Money_StaffTests14MockURLSessionC",
+      "moduleName": "Virgin_Money_StaffTests",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSURLSession",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "Foundation.URLSession",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MockURLSessionDataTask",
+      "printedName": "MockURLSessionDataTask",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "completionHandler",
+          "printedName": "completionHandler",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "((Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ())?",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?)",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Optional",
+                          "printedName": "Foundation.Data?",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Data",
+                              "printedName": "Foundation.Data",
+                              "usr": "s:10Foundation4DataV"
+                            }
+                          ],
+                          "usr": "s:Sq"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Optional",
+                          "printedName": "Foundation.URLResponse?",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "URLResponse",
+                              "printedName": "Foundation.URLResponse",
+                              "usr": "c:objc(cs)NSURLResponse"
+                            }
+                          ],
+                          "usr": "s:Sq"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Optional",
+                          "printedName": "Swift.Error?",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Error",
+                              "printedName": "Swift.Error",
+                              "usr": "s:s5ErrorP"
+                            }
+                          ],
+                          "usr": "s:Sq"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:23Virgin_Money_StaffTests22MockURLSessionDataTaskC17completionHandlery10Foundation0G0VSg_So13NSURLResponseCSgs5Error_pSgtcSgvp",
+          "mangledName": "$s23Virgin_Money_StaffTests22MockURLSessionDataTaskC17completionHandlery10Foundation0G0VSg_So13NSURLResponseCSgs5Error_pSgtcSgvp",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "((Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Tuple",
+                          "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?)",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Optional",
+                              "printedName": "Foundation.Data?",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Data",
+                                  "printedName": "Foundation.Data",
+                                  "usr": "s:10Foundation4DataV"
+                                }
+                              ],
+                              "usr": "s:Sq"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Optional",
+                              "printedName": "Foundation.URLResponse?",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "URLResponse",
+                                  "printedName": "Foundation.URLResponse",
+                                  "usr": "c:objc(cs)NSURLResponse"
+                                }
+                              ],
+                              "usr": "s:Sq"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Optional",
+                              "printedName": "Swift.Error?",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Error",
+                                  "printedName": "Swift.Error",
+                                  "usr": "s:s5ErrorP"
+                                }
+                              ],
+                              "usr": "s:Sq"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests22MockURLSessionDataTaskC17completionHandlery10Foundation0G0VSg_So13NSURLResponseCSgs5Error_pSgtcSgvg",
+              "mangledName": "$s23Virgin_Money_StaffTests22MockURLSessionDataTaskC17completionHandlery10Foundation0G0VSg_So13NSURLResponseCSgs5Error_pSgtcSgvg",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "((Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Tuple",
+                          "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?)",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Optional",
+                              "printedName": "Foundation.Data?",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Data",
+                                  "printedName": "Foundation.Data",
+                                  "usr": "s:10Foundation4DataV"
+                                }
+                              ],
+                              "usr": "s:Sq"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Optional",
+                              "printedName": "Foundation.URLResponse?",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "URLResponse",
+                                  "printedName": "Foundation.URLResponse",
+                                  "usr": "c:objc(cs)NSURLResponse"
+                                }
+                              ],
+                              "usr": "s:Sq"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Optional",
+                              "printedName": "Swift.Error?",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Error",
+                                  "printedName": "Swift.Error",
+                                  "usr": "s:s5ErrorP"
+                                }
+                              ],
+                              "usr": "s:Sq"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests22MockURLSessionDataTaskC17completionHandlery10Foundation0G0VSg_So13NSURLResponseCSgs5Error_pSgtcSgvs",
+              "mangledName": "$s23Virgin_Money_StaffTests22MockURLSessionDataTaskC17completionHandlery10Foundation0G0VSg_So13NSURLResponseCSgs5Error_pSgtcSgvs",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests22MockURLSessionDataTaskC17completionHandlery10Foundation0G0VSg_So13NSURLResponseCSgs5Error_pSgtcSgvM",
+              "mangledName": "$s23Virgin_Money_StaffTests22MockURLSessionDataTaskC17completionHandlery10Foundation0G0VSg_So13NSURLResponseCSgs5Error_pSgtcSgvM",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "urlResponse",
+          "printedName": "urlResponse",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "Foundation.HTTPURLResponse?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HTTPURLResponse",
+                  "printedName": "Foundation.HTTPURLResponse",
+                  "usr": "c:objc(cs)NSHTTPURLResponse"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:23Virgin_Money_StaffTests22MockURLSessionDataTaskC11urlResponseSo17NSHTTPURLResponseCSgvp",
+          "mangledName": "$s23Virgin_Money_StaffTests22MockURLSessionDataTaskC11urlResponseSo17NSHTTPURLResponseCSgvp",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Foundation.HTTPURLResponse?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPURLResponse",
+                      "printedName": "Foundation.HTTPURLResponse",
+                      "usr": "c:objc(cs)NSHTTPURLResponse"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests22MockURLSessionDataTaskC11urlResponseSo17NSHTTPURLResponseCSgvg",
+              "mangledName": "$s23Virgin_Money_StaffTests22MockURLSessionDataTaskC11urlResponseSo17NSHTTPURLResponseCSgvg",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Foundation.HTTPURLResponse?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPURLResponse",
+                      "printedName": "Foundation.HTTPURLResponse",
+                      "usr": "c:objc(cs)NSHTTPURLResponse"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests22MockURLSessionDataTaskC11urlResponseSo17NSHTTPURLResponseCSgvs",
+              "mangledName": "$s23Virgin_Money_StaffTests22MockURLSessionDataTaskC11urlResponseSo17NSHTTPURLResponseCSgvs",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests22MockURLSessionDataTaskC11urlResponseSo17NSHTTPURLResponseCSgvM",
+              "mangledName": "$s23Virgin_Money_StaffTests22MockURLSessionDataTaskC11urlResponseSo17NSHTTPURLResponseCSgvM",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "serviceError",
+          "printedName": "serviceError",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "Virgin_Money_Staff.RequestErrors?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "RequestErrors",
+                  "printedName": "Virgin_Money_Staff.RequestErrors",
+                  "usr": "s:18Virgin_Money_Staff13RequestErrorsO"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:23Virgin_Money_StaffTests22MockURLSessionDataTaskC12serviceError0a1_b1_C013RequestErrorsOSgvp",
+          "mangledName": "$s23Virgin_Money_StaffTests22MockURLSessionDataTaskC12serviceError0a1_b1_C013RequestErrorsOSgvp",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Virgin_Money_Staff.RequestErrors?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "RequestErrors",
+                      "printedName": "Virgin_Money_Staff.RequestErrors",
+                      "usr": "s:18Virgin_Money_Staff13RequestErrorsO"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests22MockURLSessionDataTaskC12serviceError0a1_b1_C013RequestErrorsOSgvg",
+              "mangledName": "$s23Virgin_Money_StaffTests22MockURLSessionDataTaskC12serviceError0a1_b1_C013RequestErrorsOSgvg",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Virgin_Money_Staff.RequestErrors?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "RequestErrors",
+                      "printedName": "Virgin_Money_Staff.RequestErrors",
+                      "usr": "s:18Virgin_Money_Staff13RequestErrorsO"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests22MockURLSessionDataTaskC12serviceError0a1_b1_C013RequestErrorsOSgvs",
+              "mangledName": "$s23Virgin_Money_StaffTests22MockURLSessionDataTaskC12serviceError0a1_b1_C013RequestErrorsOSgvs",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests22MockURLSessionDataTaskC12serviceError0a1_b1_C013RequestErrorsOSgvM",
+              "mangledName": "$s23Virgin_Money_StaffTests22MockURLSessionDataTaskC12serviceError0a1_b1_C013RequestErrorsOSgvM",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "resume",
+          "printedName": "resume()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)MockURLSessionDataTask(im)resume",
+          "mangledName": "$s23Virgin_Money_StaffTests22MockURLSessionDataTaskC6resumeyyF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "resume",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MockURLSessionDataTask",
+              "printedName": "Virgin_Money_StaffTests.MockURLSessionDataTask",
+              "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)MockURLSessionDataTask"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)MockURLSessionDataTask(im)init",
+          "mangledName": "$s23Virgin_Money_StaffTests22MockURLSessionDataTaskCACycfc",
+          "moduleName": "Virgin_Money_StaffTests",
+          "deprecated": true,
+          "overriding": true,
+          "implicit": true,
+          "intro_iOS": "7.0",
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override",
+            "Available"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Virgin_Money_StaffTests@objc(cs)MockURLSessionDataTask",
+      "mangledName": "$s23Virgin_Money_StaffTests22MockURLSessionDataTaskC",
+      "moduleName": "Virgin_Money_StaffTests",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSURLSessionDataTask",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "Foundation.URLSessionDataTask",
+        "Foundation.URLSessionTask",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Virgin_Money_StaffTests",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Virgin_Money_Staff",
+      "printedName": "Virgin_Money_Staff",
+      "declKind": "Import",
+      "moduleName": "Virgin_Money_StaffTests",
+      "declAttributes": [
+        "Testable"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "RoomsMockAPIManager",
+      "printedName": "RoomsMockAPIManager",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "isApiSuccessFull",
+          "printedName": "isApiSuccessFull",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:23Virgin_Money_StaffTests19RoomsMockAPIManagerC16isApiSuccessFullSbvp",
+          "mangledName": "$s23Virgin_Money_StaffTests19RoomsMockAPIManagerC16isApiSuccessFullSbvp",
+          "moduleName": "Virgin_Money_StaffTests",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests19RoomsMockAPIManagerC16isApiSuccessFullSbvg",
+              "mangledName": "$s23Virgin_Money_StaffTests19RoomsMockAPIManagerC16isApiSuccessFullSbvg",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests19RoomsMockAPIManagerC16isApiSuccessFullSbvs",
+              "mangledName": "$s23Virgin_Money_StaffTests19RoomsMockAPIManagerC16isApiSuccessFullSbvs",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:23Virgin_Money_StaffTests19RoomsMockAPIManagerC16isApiSuccessFullSbvM",
+              "mangledName": "$s23Virgin_Money_StaffTests19RoomsMockAPIManagerC16isApiSuccessFullSbvM",
+              "moduleName": "Virgin_Money_StaffTests",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "call",
+          "printedName": "call(url:decoding:completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.URL?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "URL",
+                  "printedName": "Foundation.URL",
+                  "usr": "s:10Foundation3URLV"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Metatype",
+              "printedName": "τ_0_0.Type",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Swift.Result<τ_0_0, Virgin_Money_Staff.RequestErrors>) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Result",
+                  "printedName": "Swift.Result<τ_0_0, Virgin_Money_Staff.RequestErrors>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "RequestErrors",
+                      "printedName": "Virgin_Money_Staff.RequestErrors",
+                      "usr": "s:18Virgin_Money_Staff13RequestErrorsO"
+                    }
+                  ],
+                  "usr": "s:s6ResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:23Virgin_Money_StaffTests19RoomsMockAPIManagerC4call3url8decoding10completiony10Foundation3URLVSg_xmys6ResultOyx0a1_b1_C013RequestErrorsOGctSeRzSERzlF",
+          "mangledName": "$s23Virgin_Money_StaffTests19RoomsMockAPIManagerC4call3url8decoding10completiony10Foundation3URLVSg_xmys6ResultOyx0a1_b1_C013RequestErrorsOGctSeRzSERzlF",
+          "moduleName": "Virgin_Money_StaffTests",
+          "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+          "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RoomsMockAPIManager",
+              "printedName": "Virgin_Money_StaffTests.RoomsMockAPIManager",
+              "usr": "s:23Virgin_Money_StaffTests19RoomsMockAPIManagerC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:23Virgin_Money_StaffTests19RoomsMockAPIManagerCACycfc",
+          "mangledName": "$s23Virgin_Money_StaffTests19RoomsMockAPIManagerCACycfc",
+          "moduleName": "Virgin_Money_StaffTests",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:23Virgin_Money_StaffTests19RoomsMockAPIManagerC",
+      "mangledName": "$s23Virgin_Money_StaffTests19RoomsMockAPIManagerC",
+      "moduleName": "Virgin_Money_StaffTests",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "APIManager",
+          "printedName": "APIManager",
+          "usr": "s:18Virgin_Money_Staff10APIManagerP",
+          "mangledName": "$s18Virgin_Money_Staff10APIManagerP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ColleagueElement",
+      "printedName": "ColleagueElement",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "mockedColleagueResponse",
+          "printedName": "mockedColleagueResponse",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Virgin_Money_Staff.ColleagueElement]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ColleagueElement",
+                  "printedName": "Virgin_Money_Staff.ColleagueElement",
+                  "usr": "s:18Virgin_Money_Staff16ColleagueElementV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18Virgin_Money_Staff16ColleagueElementV0a1_b1_C5TestsE06mockedD8ResponseSayACGvpZ",
+          "mangledName": "$s18Virgin_Money_Staff16ColleagueElementV0a1_b1_C5TestsE06mockedD8ResponseSayACGvpZ",
+          "moduleName": "Virgin_Money_StaffTests",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Virgin_Money_Staff.ColleagueElement]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ColleagueElement",
+                      "printedName": "Virgin_Money_Staff.ColleagueElement",
+                      "usr": "s:18Virgin_Money_Staff16ColleagueElementV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18Virgin_Money_Staff16ColleagueElementV0a1_b1_C5TestsE06mockedD8ResponseSayACGvgZ",
+              "mangledName": "$s18Virgin_Money_Staff16ColleagueElementV0a1_b1_C5TestsE06mockedD8ResponseSayACGvgZ",
+              "moduleName": "Virgin_Money_StaffTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Virgin_Money_Staff.ColleagueElement]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ColleagueElement",
+                      "printedName": "Virgin_Money_Staff.ColleagueElement",
+                      "usr": "s:18Virgin_Money_Staff16ColleagueElementV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18Virgin_Money_Staff16ColleagueElementV0a1_b1_C5TestsE06mockedD8ResponseSayACGvsZ",
+              "mangledName": "$s18Virgin_Money_Staff16ColleagueElementV0a1_b1_C5TestsE06mockedD8ResponseSayACGvsZ",
+              "moduleName": "Virgin_Money_StaffTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18Virgin_Money_Staff16ColleagueElementV0a1_b1_C5TestsE06mockedD8ResponseSayACGvMZ",
+              "mangledName": "$s18Virgin_Money_Staff16ColleagueElementV0a1_b1_C5TestsE06mockedD8ResponseSayACGvMZ",
+              "moduleName": "Virgin_Money_StaffTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:18Virgin_Money_Staff16ColleagueElementV",
+      "mangledName": "$s18Virgin_Money_Staff16ColleagueElementV",
+      "moduleName": "Virgin_Money_Staff",
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "RoomElement",
+      "printedName": "RoomElement",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "mockedRoomsResponse",
+          "printedName": "mockedRoomsResponse",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Virgin_Money_Staff.RoomElement]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "RoomElement",
+                  "printedName": "Virgin_Money_Staff.RoomElement",
+                  "usr": "s:18Virgin_Money_Staff11RoomElementV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18Virgin_Money_Staff11RoomElementV0a1_b1_C5TestsE19mockedRoomsResponseSayACGvpZ",
+          "mangledName": "$s18Virgin_Money_Staff11RoomElementV0a1_b1_C5TestsE19mockedRoomsResponseSayACGvpZ",
+          "moduleName": "Virgin_Money_StaffTests",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Virgin_Money_Staff.RoomElement]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "RoomElement",
+                      "printedName": "Virgin_Money_Staff.RoomElement",
+                      "usr": "s:18Virgin_Money_Staff11RoomElementV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18Virgin_Money_Staff11RoomElementV0a1_b1_C5TestsE19mockedRoomsResponseSayACGvgZ",
+              "mangledName": "$s18Virgin_Money_Staff11RoomElementV0a1_b1_C5TestsE19mockedRoomsResponseSayACGvgZ",
+              "moduleName": "Virgin_Money_StaffTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Virgin_Money_Staff.RoomElement]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "RoomElement",
+                      "printedName": "Virgin_Money_Staff.RoomElement",
+                      "usr": "s:18Virgin_Money_Staff11RoomElementV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18Virgin_Money_Staff11RoomElementV0a1_b1_C5TestsE19mockedRoomsResponseSayACGvsZ",
+              "mangledName": "$s18Virgin_Money_Staff11RoomElementV0a1_b1_C5TestsE19mockedRoomsResponseSayACGvsZ",
+              "moduleName": "Virgin_Money_StaffTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18Virgin_Money_Staff11RoomElementV0a1_b1_C5TestsE19mockedRoomsResponseSayACGvMZ",
+              "mangledName": "$s18Virgin_Money_Staff11RoomElementV0a1_b1_C5TestsE19mockedRoomsResponseSayACGvMZ",
+              "moduleName": "Virgin_Money_StaffTests",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:18Virgin_Money_Staff11RoomElementV",
+      "mangledName": "$s18Virgin_Money_Staff11RoomElementV",
+      "moduleName": "Virgin_Money_Staff",
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

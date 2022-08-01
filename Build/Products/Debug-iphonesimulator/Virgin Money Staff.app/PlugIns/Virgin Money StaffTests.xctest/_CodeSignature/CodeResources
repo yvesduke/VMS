@@ -6,34 +6,11 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		tGO5ILsklaEJfmXBno16jxM354w=
-		</data>
-		<key>PeopleResponse_success.json</key>
-		<data>
-		vCT6JXuGGPo5FKyM8QZvKX7nTbA=
-		</data>
-		<key>RoomResponse_success.json</key>
-		<data>
-		s6oz++SntmTmTFuQWy03QE8Jp38=
+		k2Oaoxaw3D53c0EALm1jVLGq7so=
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict>
-		<key>PeopleResponse_success.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RN0CsoFF1AGsHaiR1od8WMp7hp7nhNqUkAl4axEuDII=
-			</data>
-		</dict>
-		<key>RoomResponse_success.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			17dWtv55l1DXq+JcZAIkjuM8yVVUzgASoh3t6eKDbpc=
-			</data>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>

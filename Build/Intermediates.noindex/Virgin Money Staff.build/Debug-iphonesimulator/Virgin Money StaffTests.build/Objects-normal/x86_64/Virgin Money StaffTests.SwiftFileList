@@ -1,2 +1,6 @@
-/Users/apple/Documents/Second\ Bench/Virgin\ Money/Virgin\ Money\ Staff/Virgin\ Money\ StaffTests/Virgin_Money_StaffTests.swift
-/Users/apple/Documents/Second\ Bench/Virgin\ Money/Virgin\ Money\ Staff/Virgin\ Money\ StaffTests/MockDataFetcher.swift
+/Users/apple/Documents/Second\ Bench/Virgin\ Money/Virgin\ Money\ Staff/Virgin\ Money\ StaffTests/ViewModel/ColleaguesListViewModelTests.swift
+/Users/apple/Documents/Second\ Bench/Virgin\ Money/Virgin\ Money\ Staff/Virgin\ Money\ StaffTests/ViewModel/RoomsViewModelTests.swift
+/Users/apple/Documents/Second\ Bench/Virgin\ Money/Virgin\ Money\ Staff/Virgin\ Money\ StaffTests/APIManagerTests.swift
+/Users/apple/Documents/Second\ Bench/Virgin\ Money/Virgin\ Money\ Staff/Virgin\ Money\ StaffTests/ViewModel/PeoplesMockAPIManager.swift
+/Users/apple/Documents/Second\ Bench/Virgin\ Money/Virgin\ Money\ Staff/Virgin\ Money\ StaffTests/MockURLSession.swift
+/Users/apple/Documents/Second\ Bench/Virgin\ Money/Virgin\ Money\ Staff/Virgin\ Money\ StaffTests/ViewModel/RoomsMockAPIManager.swift

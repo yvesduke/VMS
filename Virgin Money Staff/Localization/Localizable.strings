@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Virgin Money Staff
+
+  Created by apple on 01/08/2022.
+  
+*/
+
+// Cells
+
+"person_avatar" = "Person Avatar";
+"name_of_person_is" = "Name of Person is";
+"max_ccupancies_are" = "Max Occupancies are";
+"occupied" = "All rooms are occupied";
+"not_occupied" = "All rooms are nopt occupied";

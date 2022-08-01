@@ -1,7 +1,7 @@
-version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
 options: "51ce0c48e31220e793c84e3f5d422832f29df455f4dfc59771079511c7473210"
-build_start_time: [1656804482, 958106994]
-build_end_time: [1656804483, 765048980]
+build_start_time: [1659359901, 584287166]
+build_end_time: [1659359901, 944230079]
 inputs:
   "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money StaffUITests/Virgin_Money_StaffUITests.swift": [1656499221, 24656295]
   ? "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money StaffUITests/Virgin_Money_StaffUITestsLaunchTests.swift"

@@ -1,22 +1,19 @@
-version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
 options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
-build_start_time: [1656885812, 637844085]
-build_end_time: [1656885813, 650689125]
+build_start_time: [1659363616, 434705972]
+build_end_time: [1659363616, 798089027]
 inputs:
   "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/AppDelegate.swift": [1656499218, 685145378]
   "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Constants/APIEndpoints.swift": [1656804479, 452138900]
-  ? "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Controllers/ColleaguesListViewController.swift"
-  : [1656885812, 124925136]
-  ? "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Controllers/CollegueDetailsViewController.swift"
-  : [1656794036, 972302436]
-  ? "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Controllers/RoomsTableViewController.swift"
-  : [1656806526, 200807571]
-  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Helper/FetchDataDelegate.swift": [1656800385, 646897315]
-  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Models/Colleague.swift": [1656521346, 449694156]
+  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Models/Colleague.swift": [1659362434, 904368877]
   "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Models/Room.swift": [1656521346, 468492984]
   "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/SceneDelegate.swift": [1656499218, 696361541]
-  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Utils/Extension+URLSessionError.swift": [1656518004, 747407674]
-  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Utils/Extension+URLSessionRequest.swift": [1656518004, 578075885]
+  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Utils/APIManager.swift": [1659359809, 609801769]
   "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Utils/ImageViewHelper.swift": [1656806526, 253653526]
-  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Views/CollegueTableViewCell.swift": [1656690768, 906056880]
-  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Views/RoomTableViewCell.swift": [1656708225, 123975276]
+  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/ViewModels/ColleaguesListViewModel.swift": [1659363192, 949805736]
+  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/ViewModels/RoomsViewModel.swift": [1659359809, 807016134]
+  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Views/Cells/CollegueTableViewCell.swift": [1659363595, 831106901]
+  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Views/Cells/RoomTableViewCell.swift": [1659363616, 229104518]
+  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Views/ColleaguesListViewController.swift": [1659362434, 970467090]
+  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Views/CollegueDetailsViewController.swift": [1659362434, 959662914]
+  "/Users/apple/Documents/Second Bench/Virgin Money/Virgin Money Staff/Virgin Money Staff/Views/RoomsViewController.swift": [1659362434, 948957204]

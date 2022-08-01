@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		9K9bqEDkbHR5Rv+PGmi/adOVToY=
+		oCFj1Lzc1dqX7607x1hRZc9EuTE=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		mRAnZazJO4jN1iMZ18x1XM4upnA=
+		8R3Muvp7OMlNS5I/OLscmd46Gvo=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/QHE-wU-nXx-view-6AG-Tg-cVt.nib</key>
 		<data>
-		VpPJ0k+JibY2BTuAYH7CDYMET/c=
+		elAvIUlMR7FgMznJ/8SiDDqq0Zk=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-22g-XL-ktR.nib</key>
 		<data>
-		F/1Jgpp1QVQce9qbnV2MnS743iY=
+		Uefkl3IRE2TihlgqwOsfb6i29Ow=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-rIv-ef-0TI.nib</key>
 		<data>
@@ -42,11 +42,15 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/rIv-ef-0TI-view-fxu-WR-rfM.nib</key>
 		<data>
-		5wX0MQpcGIFcioU7AFQhpx8x7hA=
+		Fwvciad2QAifBcF6Q1YELIXzP98=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0902bVzozPbWYBJ6BTYLOGdUJ8w=
+		HfudgN332aOU9wPEqjRkgBLPkiU=
+		</data>
+		<key>Localizable.strings</key>
+		<data>
+		EjI65/no4VKD8d0/HrR/wdVwcWQ=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -54,23 +58,15 @@
 		</data>
 		<key>PlugIns/Virgin Money StaffTests.xctest/Info.plist</key>
 		<data>
-		tGO5ILsklaEJfmXBno16jxM354w=
-		</data>
-		<key>PlugIns/Virgin Money StaffTests.xctest/PeopleResponse_success.json</key>
-		<data>
-		vCT6JXuGGPo5FKyM8QZvKX7nTbA=
-		</data>
-		<key>PlugIns/Virgin Money StaffTests.xctest/RoomResponse_success.json</key>
-		<data>
-		s6oz++SntmTmTFuQWy03QE8Jp38=
+		k2Oaoxaw3D53c0EALm1jVLGq7so=
 		</data>
 		<key>PlugIns/Virgin Money StaffTests.xctest/Virgin Money StaffTests</key>
 		<data>
-		l2sKaFsq4fTGvHu98mMSrxN80Eg=
+		rB0lL7BkG/1QXv6Sk1yUz8+Bs88=
 		</data>
 		<key>PlugIns/Virgin Money StaffTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		pJg4dyREhzOiPVw8HwPemxP6mQ8=
+		VbNEPBYfjMHgWJkEpbq7cgO2+K8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -79,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4EqTPxau3jixuLsOysl3039gc3GPo+Li/Xx/lJtvfuI=
+			yETXxXV+P3cK1rtJAUdY7K9LAIXnGuXf2kcPENZIBM4=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -107,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U3KR1WGpvpxw05S66klO+tbMzNlxOJdAFBJVh/aRDf0=
+			AzqWRW3enavHFiDL+WfespvUDTKi4zMIjEEKsTQNh5Y=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -121,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SAltSHLTn+1ftiHwnveVKFEmxBWn2ViYuU9/heBw310=
+			c+r4uD2Kvv524G8l+BGCAgrJQZ7141x9bmMJo9fNszg=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-22g-XL-ktR.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lyGu5ahLpSCM/ejCv+kkWAz0C9OrOxkIsnV3i8n71B4=
+			0S87h72/38hxC4VDB6wxh+zO70Zc+O1NOoEVJ9yhnUE=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-rIv-ef-0TI.nib</key>
@@ -142,42 +138,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dv0jkNPnwv6+4m9I18luSzDEP9yV3w+LMhbhEaMihdY=
+			9CSQBtTEV4kM4+BV28vG83dmwH4tU1HVjONxhffnnXk=
+			</data>
+		</dict>
+		<key>Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3k+PBxpvkSHMY3h7sV4Wj44CXmtUU72JDTkyT9ePDHo=
 			</data>
 		</dict>
 		<key>PlugIns/Virgin Money StaffTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wWOOHhKSflayOQB1pgkd89UiQh5OV9LQdV0/zI9RPWY=
-			</data>
-		</dict>
-		<key>PlugIns/Virgin Money StaffTests.xctest/PeopleResponse_success.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RN0CsoFF1AGsHaiR1od8WMp7hp7nhNqUkAl4axEuDII=
-			</data>
-		</dict>
-		<key>PlugIns/Virgin Money StaffTests.xctest/RoomResponse_success.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			17dWtv55l1DXq+JcZAIkjuM8yVVUzgASoh3t6eKDbpc=
+			FYlCB1ypwjUTxtpQW7DImhvKrCUTsuu1wf+RxadmLts=
 			</data>
 		</dict>
 		<key>PlugIns/Virgin Money StaffTests.xctest/Virgin Money StaffTests</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zK7UV9zaEInfGZ6x6IUD+ZzP1+rX03aKmkmLLCzvW3w=
+			H18xLOX8AsaUmwS67dR4jM6Zf55N9+OeZLThNFRoIYY=
 			</data>
 		</dict>
 		<key>PlugIns/Virgin Money StaffTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sQ2IwA9G6wkQixy6/OvLt9hylO13d80P4YuAKNnhpjI=
+			mtMIf3PbDXSakNlQ4ZlraEs88aZk2zHcQ+lB3qmlUVU=
 			</data>
 		</dict>
 	</dict>
