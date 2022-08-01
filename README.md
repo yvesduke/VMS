@@ -27,6 +27,8 @@ The app currenlty support different ios screen sizes and targets ios 15
 
 
 #### Features :
+ - Accessibility support for voice over for cells
+ - Localization
  - Display a list of VM Staff with image and contact info,
  - Display a list of VM rooms with their Id, and Occupancy status
  - Click on any user to display a detail view of that specific user
