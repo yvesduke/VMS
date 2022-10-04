@@ -1,19 +1,19 @@
 # VMS
 
 #### Intro :
-This is a small app taht allows VM staff to see and use all their collegues contact details. 
+This is a small app that allows VM staff to view and use all their collegues contact details. 
 the app also allows users to see which rooms in the office are currently occupied.
 
 
 #### Quick start :
-Using either a real device or simulato, lunch the app and you will be presented with a list of VM staff with their phots, Name and email address.
-at the bottom of the window, you will have two tabs one for VM staff and another for the room. You can switch between these two tabs depending on 
-what you want to see. If you click on one of the staff member in a list, you will be presented with a detail page containing staff image, first, last name, email, job title and favourite color.
+Using either a real device or a simulator, lunch the app and you will be presented with a list of VM staff with their photos, Name and email address.
+at the bottom of the window, you will have two tabs one for VM staff and another for the room. You can switch between these two tabs depending on what you want to see. 
+If you click on one of the staff member in a list, you will be presented with a detail page containing staff image, first, last name, email, job title and favourite color.
 The room view will show a list of rooms with each room's id and its occupancy status.
 
 #### Status :
-The app is currently using storyboard for with UIKIT to create user Interface. It is build using MVVM architecture, with Testcases. 
-The app currenlty support different ios screen sizes and targets ios 15
+The app is currently using storyboard and UIKIT to create user Interface. It is build using MVVM architecture, with Testcases. 
+The app currenlty supports different ios screen sizes and targets ios 15
 
 
 #### What's included :
